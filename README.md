@@ -13,6 +13,9 @@ This repository contains a refactored HTML page aimed at enhancing the semantic 
 
 The "Semantic HTML Refactor" assignment focuses on improving the structure and semantics of an existing HTML web page. By implementing semantic HTML elements and following best practices, the project aims to enhance the webpage's accessibility, search engine optimization (SEO), and overall user experience.
 
+## Preview
+Click the link below to view the landing page for Horision:
+https://epicibby101.github.io/Horiseon-Landing-Page/
   
 ### Installation
 
