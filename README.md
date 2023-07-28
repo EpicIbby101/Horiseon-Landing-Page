@@ -5,6 +5,7 @@ This repository contains a refactored HTML page aimed at enhancing the semantic 
 ## Table of Contents
 
 - [About](#about)
+- [Preview](#preview)
 - [Installation](#installation)
 - [License](#license)
 - [Contact](#contact)
