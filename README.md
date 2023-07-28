@@ -1,44 +1,33 @@
 # Horiseon-Landing-Page
 
-As a software engineer, part of my job is to ensure that our websites are neatly written and semantic so that the website can be accessed by 
+This repository contains a refactored HTML page aimed at enhancing the semantic structure and accessibility of a web page. The main goal of this project is to improve the code's readability and maintainability while adhering to best practices for semantic HTML. By using appropriate HTML elements and structuring the content more meaningfully, the web page becomes more user-friendly and search engine optimized. The refactored HTML embraces the use of semantic tags such as <header>, <main>, <section>, <article>, and <footer> to better represent the page's structure. The project aims to provide a clear example of how to create a well-structured and accessible HTML document, fostering a better understanding of semantic coding for web developers.
+
 ## Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Installation](#installation)
 - [License](#license)
 - [Contact](#contact)
 
 ## About
 
-Briefly explain what your project does and its key features.
+The "Semantic HTML Refactor" assignment focuses on improving the structure and semantics of an existing HTML web page. By implementing semantic HTML elements and following best practices, the project aims to enhance the webpage's accessibility, search engine optimization (SEO), and overall user experience.
 
-## Getting Started
-
-Provide instructions for setting up and running the project locally. Include any necessary prerequisites and installation steps.
-
-### Prerequisites
-
-List any software, libraries, or dependencies that users need to have installed on their machine before they can use your project.
-
+  
 ### Installation
 
-Step-by-step guide on how to install your project.
+To install and run this repo on your local machine, follow these steps:
+1. Clone the repository to your local machine using Git. Open your terminal and navigate to the directory where you want to store the project:
+     git clone https://github.com/YourUsername/Semantic-HTML-Refactor.git
+2. Change into the project's directory:
+     cd Horiseon-Landing-Page
+3. Open the index.html file in your preferred web browser to view the web page:
+     open index.html
+4. Alternatively, you can also use your code editor's built-in live server to view the web page. Simply open the project folder in your code editor and right-click on the index.html file, then choose the "Open with Live Server" option.
 
-## Usage
+## Contact
 
-Explain how to use your project. Provide examples and code snippets if applicable.
-
-## Contributing
-
-Explain how other developers can contribute to your project. Include guidelines for submitting pull requests and reporting issues.
-
-## License
-
-Specify the license under which your project is distributed. Choose an open-source license that aligns with your project's goals.
+email me: Kevin_grittner@outlook.com
 
 ## Contact
 
