@@ -5,13 +5,14 @@ This repository contains a refactored HTML page aimed at enhancing the semantic 
 ## Table of Contents
 
 - [About](#about)
+- [Preview](#preview)
 - [Installation](#installation)
 - [License](#license)
 - [Contact](#contact)
 
 ## About
 
-The "Semantic HTML Refactor" assignment focuses on improving the structure and semantics of an existing HTML web page. By implementing semantic HTML elements and following best practices, the project aims to enhance the webpage's accessibility, search engine optimization (SEO), and overall user experience.
+The refactored HTML embraces the use of semantic tags such as header, main, section, article, and footer tags to better represent the page's structure. The assignment aims to provide a clear example of how to create a well-structured and accessible HTML document, fostering a better understanding of semantic coding for web developers.
 
 ## Preview
 Click the link to view the landing page for Horision:
