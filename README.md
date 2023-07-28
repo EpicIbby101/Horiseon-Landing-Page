@@ -25,13 +25,8 @@ To install and run this repo on your local machine, follow these steps:
      open index.html
 4. Alternatively, you can also use your code editor's built-in live server to view the web page. Simply open the project folder in your code editor and right-click on the index.html file, then choose the "Open with Live Server" option.
 
-## Contact
-
-email me: Kevin_grittner@outlook.com
 
 ## Contact
 
-Provide contact information in case users want to get in touch with you regarding the project.
-- Email: your.email@example.com
-- Twitter: [@your_username](https://twitter.com/your_username)
-- GitHub: [YourUsername](https://github.com/YourUsername)
+- Email: kevin_grittner@outlook.com
+- GitHub: https://github.com/EpicIbby101
