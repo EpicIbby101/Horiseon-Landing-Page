@@ -1,6 +1,6 @@
 # Horiseon-Landing-Page
 
-This repository contains a refactored HTML page aimed at enhancing the semantic structure and accessibility of a web page. The main goal of this project is to improve the code's readability and maintainability while adhering to best practices for semantic HTML. By using appropriate HTML elements and structuring the content more meaningfully, the web page becomes more user-friendly and search engine optimized. The refactored HTML embraces the use of semantic tags such as <header>, <main>, <section>, <article>, and <footer> to better represent the page's structure. The project aims to provide a clear example of how to create a well-structured and accessible HTML document, fostering a better understanding of semantic coding for web developers.
+This repository contains a refactored HTML page aimed at enhancing the semantic structure and accessibility of a web page. The main goal of this project is to improve the code's readability and maintainability while adhering to best practices for semantic HTML. By using appropriate HTML elements and structuring the content more meaningfully, the web page becomes more user-friendly and search engine optimized. The refactored HTML embraces the use of semantic tags such as header, main, section, article, and footer tags to better represent the page's structure. The project aims to provide a clear example of how to create a well-structured and accessible HTML document, fostering a better understanding of semantic coding for web developers.
 
 ## Table of Contents
 
