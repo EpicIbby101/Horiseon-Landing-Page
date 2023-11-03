@@ -1,200 +1,174 @@
+/* Reset some default styles for all elements */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /* Box model set to border-box for all elements */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
 }
 
+/* Styling for the entire webpage's background */
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Background color for the entire page */
 }
 
+/* Header section styling */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px; /* Padding around the header */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family for the header */
+    background-color: #2a607c; /* Background color of the header */
+    color: #ffffff; /* Text color in the header */
 }
 
+/* Styling for the h1 element within the header */
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /* Display the h1 element as an inline-block */
+    font-size: 48px; /* Font size for the h1 element */
 }
 
+/* Styling for the ".seo" class within the h1 element */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* Text color for elements with the ".seo" class within h1 */
 }
 
+/* Styling for the div elements within the header */
 .header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 15px; /* Padding at the top of the div elements */
+    margin-right: 20px; /* Right margin for the div elements */
+    float: right; /* Float the div elements to the right */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for the div elements */
+    font-size: 20px; /* Font size for the div elements */
 }
 
+/* Styling for unordered lists within the div elements */
 .header div ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove list bullets for ul elements */
 }
 
+/* Styling for list items within the unordered lists */
 .header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /* Display list items as inline-block elements */
+    margin-left: 25px; /* Left margin for list items */
 }
 
+/* Styling for hyperlinks (a elements) */
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /* Text color for hyperlinks */
+    text-decoration: none; /* Remove underline from hyperlinks */
 }
 
+/* Styling for paragraph elements */
 p {
-    font-size: 16px;
+    font-size: 16px; /* Font size for paragraphs */
 }
 
+/* Hero section styling */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /* Height of the hero section */
+    width: 100%; /* Full width */
+    margin-bottom: 25px; /* Bottom margin */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Background image */
+    background-size: cover; /* Cover background image */
+    background-position: center; /* Center background image */
 }
 
+/* Additional utility classes for floating elements */
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* Float elements to the left */
+    margin-right: 25px; /* Right margin for floated elements */
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /* Float elements to the right */
+    margin-left: 25px; /* Left margin for floated elements */
 }
 
+/* Content section styling */
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 75%; /* Set the width of the content section */
+    display: inline-block; /* Display as inline-block to allow multiple elements side by side */
+    margin-left: 20px; /* Left margin for content */
 }
 
+/* Styling for the benefits section */
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-right: 20px; /* Right margin for the benefits section */
+    padding: 20px; /* Padding around the benefits section */
+    clear: both; /* Clear floating elements */
+    float: right; /* Float the benefits section to the right */
+    width: 20%; /* Set the width of the benefits section */
+    height: 100%; /* Set the height of the benefits section */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for the benefits section */
+    background-color: #2589bd; /* Background color for the benefits section */
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Styling for individual benefit sections */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px; /* Bottom margin for each benefit section */
+    color: #ffffff; /* Text color for each benefit section */
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Styling for headings within benefit sections */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px; /* Bottom margin for headings */
+    text-align: center; /* Center-align headings */
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Styling for images within benefit sections */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block; /* Display images as blocks */
+    margin: 10px auto; /* Margin and center images horizontally */
+    max-width: 150px; /* Set the maximum width for images */
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Styling for the Search Engine Optimization section */
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* Bottom margin for the section */
+    padding: 50px; /* Padding around the section */
+    height: 300px; /* Set the height of the section */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for the section */
+    background-color: #0072bb; /* Background color for the section */
+    color: #ffffff; /* Text color for the section */
 }
 
+/* Styling for the Online Reputation Management section */
 .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* Bottom margin for the section */
+    padding: 50px; /* Padding around the section */
+    height: 300px; /* Set the height of the section */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for the section */
+    background-color: #0072bb; /* Background color for the section */
+    color: #ffffff; /* Text color for the section */
 }
 
+/* Styling for the Social Media Marketing section */
 .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* Bottom margin for the section */
+    padding: 50px; /* Padding around the section */
+    height: 300px; /* Set the height of the section */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for the section */
+    background-color: #0072bb; /* Background color for the section */
+    color: #ffffff; /* Text color for the section */
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
+/* Styling for images within sections */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px; /* Set the maximum height for images within sections */
 }
 
-.online-reputation-management img {
-    max-height: 200px;
+/* Styling for headings within sections */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px; /* Bottom margin for headings */
+    font-size: 36px; /* Font size for headings */
 }
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer section styling */
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding: 30px; /* Padding in the footer */
+    clear: both; /* Clear floating elements */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family for the footer */
+    text-align: center; /* Center-align text in the footer */
 }
 
+/* Styling for headings within the footer */
 .footer h2 {
-    font-size: 20px;
+    font-size: 20px; /* Font size for headings within the footer */
 }
