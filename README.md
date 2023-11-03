@@ -17,6 +17,10 @@ The refactored HTML embraces the use of semantic tags such as header, main, sect
 ## Preview
 Click the link to view the landing page for Horision:
 https://epicibby101.github.io/Horiseon-Landing-Page/
+
+## Screenshot
+![Screenshot 2023-11-03 225924](https://github.com/EpicIbby101/Horiseon-Landing-Page/assets/86202881/51d4c760-81ba-4af8-b2bf-ca692bc8b0b8)
+
   
 ### Installation
 
